@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Image Maps</h2>
+    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+    <img src="./assets/table.png" alt="Workplace" usemap="#image_map">
+
+    <img src="table.png" usemap="#image_map">
+    <map name="image_map">
+        <area alt="windown" title="windown" href="./image_map_items/windown.htm" coords="130,13,918,439" shape="rect">
+        <area alt="jar" title="jar" href="./image_map_items/jar.htm" coords="216,475,46" shape="circle">
+    </map>
+
+</body>
+
+</html>
